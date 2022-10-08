@@ -25,7 +25,7 @@ public class Loneliness {
 
 
     public static boolean shouldHideEntity(Entity entity) {
-        if (!LonelyConfig.hideSelf && entity instanceof EntityPlayer) {
+        if (LonelyConfig.hideSelf && entity instanceof EntityPlayer) {
             if (Minecraft.getMinecraft().thePlayer == null) return false;
             final EntityPlayer player = (EntityPlayer) entity;
             if (!player.getUniqueID().equals(Minecraft.getMinecraft().thePlayer.getUniqueID())) {

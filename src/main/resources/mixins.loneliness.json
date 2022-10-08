@@ -4,6 +4,7 @@
   "package": "com.nxtdelivery.loneliness.mixin",
   "verbose": true,
   "client": [
+    "RenderManagerMixin",
     "RenderMixin"
   ]
 }
