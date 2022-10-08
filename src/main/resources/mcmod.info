@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "${id}",
+    "name": "${name}",
+    "description": "For when it all gets too much",
+    "version": "${version}",
+    "mcversion": "1.8.9",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "nxtdaydelivery"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
