@@ -5,7 +5,7 @@ import cc.polyfrost.oneconfig.config.annotations.Checkbox;
 import cc.polyfrost.oneconfig.config.annotations.Dropdown;
 import cc.polyfrost.oneconfig.config.data.Mod;
 import cc.polyfrost.oneconfig.config.data.ModType;
-import com.nxtdelivery.loneliness.Lonliness;
+import com.nxtdelivery.loneliness.Loneliness;
 
 public class LonelyConfig extends Config {
 
@@ -24,7 +24,7 @@ public class LonelyConfig extends Config {
     public static boolean hideSelf = false;
 
     public LonelyConfig() {
-        super(new Mod(Lonliness.NAME, ModType.UTIL_QOL), Lonliness.MODID + ".json");
+        super(new Mod(Loneliness.NAME, ModType.UTIL_QOL), Loneliness.MODID + ".json");
         initialize();
     }
 }

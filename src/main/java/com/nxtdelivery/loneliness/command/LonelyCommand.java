@@ -2,13 +2,13 @@ package com.nxtdelivery.loneliness.command;
 
 import cc.polyfrost.oneconfig.utils.commands.annotations.Command;
 import cc.polyfrost.oneconfig.utils.commands.annotations.Main;
-import com.nxtdelivery.loneliness.Lonliness;
+import com.nxtdelivery.loneliness.Loneliness;
 
-@Command(value = Lonliness.MODID, description = "Access the " + Lonliness.NAME + " GUI.")
+@Command(value = Loneliness.MODID, description = "Access the " + Loneliness.NAME + " GUI.")
 public class LonelyCommand {
 
     @Main
     private static void main() {
-        Lonliness.INSTANCE.config.openGui();
+        Loneliness.INSTANCE.config.openGui();
     }
 }
